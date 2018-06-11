@@ -1,0 +1,737 @@
+html {
+    font-size: 16px;
+
+}
+
+header {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: nowrap row;
+    background-color: black;
+    width: 100%;
+    padding: .5rem;
+    position: absolute;
+
+
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    /*    width: 100%;*/
+}
+
+.logo {
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem;
+    letter-spacing: 1px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.logo strong {
+    color: black;
+    font-weight: 900;
+}
+
+.logo img {
+    height: auto;
+    width: 2rem
+}
+
+#skinny {
+    font-weight: 100;
+    opacity: .6
+}
+
+.choice {
+    display: inline-flex;
+    color: white;
+    text-decoration-line: none;
+    padding: .35rem;
+    flex-shrink: 2;
+    flex-basis: auto;
+    cursor: pointer;
+}
+
+.altchoice {
+    display: none;
+}
+
+.choice:hover {
+    text-decoration: underline;
+
+}
+
+/*BLOCKONE*/
+
+.block-one {
+
+    display: flex;
+    width: 100%;
+    padding-top: 6rem;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.block-one img {
+    width: 60%;
+    align-self: center;
+    margin: 1rem;
+    border: 2px solid black;
+}
+
+.main-caption {
+    background-color: ;
+    display: flex;
+    width: 40%;
+    flex-flow: nowrap column;
+    align-items: center;
+    margin: 1rem;
+
+}
+
+
+.heading {
+    border: 2px dashed black;
+    height: 45%;
+    font-size: 4.6vw;
+    line-height: 80%;
+    font-family: "Passion One";
+    padding: .5rem;
+    word-spacing: 70px;
+}
+
+
+
+.caption1 {
+    background-color: #FFFF66;
+    height: 35%;
+    margin: 1rem 0rem;
+    padding: .75rem;
+    font-size: 3vw;
+    border-radius: 5px;
+
+}
+
+.start-here {
+    display: inline-flex;
+    width: 50%;
+    height: 20%;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    transition: background 2s;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+.start-here:hover {
+    background-color: yellow;
+    transition: background 2s ease;
+}
+
+#new {
+    color: black;
+    transition: color 2s ease;
+}
+
+#new:hover {
+    color: red;
+    transition: color 2s ease;
+
+}
+
+
+
+
+/*BLOCKTWO*/
+
+.block-two {
+
+    display: block;
+    align-content: center;
+
+}
+
+.flexcont {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    margin: 0px;
+    padding: 1rem 0rem;
+}
+
+.left {
+    width: 80%;
+    padding-left: 1rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+
+.left img {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    align-self: center;
+
+}
+
+.caption2 {
+    display: inline-flex;
+    width: 100%;
+    flex-flow: wrap row;
+    margin-right: 1rem;
+    background-color: #69CCFF;
+
+}
+
+.heading2 {
+    display: flex;
+    align-items: center;
+    height: 15%;
+    font-size: 5vw;
+    line-height: 90%;
+    font-family: "Passion One";
+    padding: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    transition: color 1s ease;
+}
+
+.heading2:hover {
+    color: white;
+    transition: color 1s ease;
+}
+
+.quote {
+    padding: .5rem;
+    font-size: 2.5vw;
+
+}
+
+#srstrat {
+    font-size: 1.6vw;
+    padding: .2rem;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    color: whitesmoke;
+}
+
+.flexcont2 {
+    width: 40%;
+    display: inline-flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    padding: .5rem
+}
+
+.infobox {
+    display: inline-flex;
+    float: right;
+    height: 20%;
+    width: 100%;
+    flex-flow: nowrap row;
+    justify-content: center;
+    margin: 1rem 0rem 1rem 0rem;
+    transition: background 2s ease;
+    padding: .2rem
+}
+
+.infobox:hover {
+    background-color: slategray;
+    border-radius: 5px;
+    transition: background 2s ease;
+
+}
+
+.info {
+    width: 60%;
+    display: flex;
+    flex-flow: nowrap column;
+    color: white;
+
+}
+
+.infobox .regimg {
+    width: 40%;
+    height: 100%;
+    max-height: 178px;
+    max-width: 178px;
+    overflow: hidden;
+    align-self: center;
+    border-radius: 5px;
+
+}
+
+.infobox .altimg {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 3vw;
+    padding-left: .5rem
+}
+
+.read-more {
+    display: inline-flex;
+    color: royalblue;
+    font-size: .5vw;
+    justify-content: center;
+    align-items: center;
+    transition: color 2s ease;
+    cursor: pointer;
+
+
+}
+
+.read-more:hover {
+    color: black;
+    font-weight: bold;
+    transition: color 1s ease;
+
+}
+
+.info p {
+    font-size: 1.5vw;
+    padding-left: .5rem;
+}
+
+
+/*BLOCKTHREE*/
+
+.block-three {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap column;
+
+
+}
+
+.boxcont {
+    display: inline-flex;
+    flex-flow: wrap row;
+    /*    width:100%;*/
+    justify-content: space-around;
+    padding: 1rem 0rem;
+    border: 2px solid black
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    margin: 3% 30%;
+    font-size: 4vw;
+    font-family: "Passion One";
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 1rem;
+    padding: .5rem;
+    transition: color 2s ease;
+}
+
+.start:hover {
+    color: red;
+    transition: color 2s ease;
+    cursor: pointer;
+}
+
+.class {
+    display: block;
+    flex-flow: nowrap column;
+    width: 30%;
+    transition: width 1s ease-in-out;
+}
+
+.class:hover {
+    width: 35%;
+    z-index: 1;
+    position: static;
+    transition: width 1s ease-in-out;
+    cursor: pointer;
+}
+
+.classimg {
+    display: block;
+    height: auto;
+    width: 100%;
+
+}
+
+.classimg img {
+    width: 100%;
+
+
+}
+
+.classinfo {
+    display: inline-flex;
+    flex-flow: wrap row;
+    background-color: #FA0000;
+    height: 40%;
+    padding: .5rem;
+    font-weight: 200;
+    justify-content: center;
+
+}
+
+.classname {
+    display: inline-flex;
+    font-family: "Passion One";
+    font-size: 2.5vw;
+
+
+}
+
+.courses {
+    font-size: 1.75vw;
+    border-top: 2px dashed black;
+    padding-top: .2rem
+}
+
+
+/*BLOCKFOUR*/
+
+.block-four {
+    width: 100%;
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1rem 0rem;
+
+
+}
+
+.flexcont4 {
+    display: flex;
+
+}
+
+.thesis {
+    display: flex;
+    justify-content: center;
+    margin: 0% 30% 3% 30%;
+    font-size: 4vw;
+    font-family: "Passion One";
+    background-color: yellow;
+    letter-spacing: 2px;
+    border-radius: 1rem;
+    padding: .5rem;
+    color: black;
+    transition: margin 3s ease;
+}
+
+.thesis:hover {
+    margin: 0% 0% 3.5% 0%;
+    transition: margin 3s ease;
+
+}
+
+.vidbox {
+    width: 55%;
+    height: 30%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    font-size: 2.5vw;
+    padding-left: .5rem
+}
+
+.vidbox video {
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+}
+
+.heading4 {
+    display: block;
+    font-size: 4vw;
+    margin: .5rem;
+    color: red;
+    transition: color 2s ease;
+    width: 100%;
+}
+
+.heading4:hover {
+    color: yellow;
+    transition: color 2s ease;
+
+}
+
+.caption4 {
+    padding: .5rem;
+    border: 2px dashed #AAAAAA;
+    margin: 0rem
+}
+
+.articlebox {
+    width: 40%;
+    display: inline-flex;
+    flex-flow: wrap column;
+    align-content: center;
+    margin: 0rem .5rem;
+
+
+}
+
+.article {
+    display: inline-flex;
+    flex-flow: nowrap row;
+    background-color: #69CCFF;
+    color: black;
+    padding: .5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-right: 0rem;
+    transition: background-color 2s ease;
+
+}
+
+.article:hover {
+    background-color: white;
+    transition: background-color 2s ease;
+}
+
+.article img {
+    align-self: center;
+    width: 35%;
+    border: 1px solid black;
+
+
+}
+
+.description {
+    font-size: 2vw;
+    width: 60%;
+    padding-left: .5rem;
+
+
+}
+
+.artheading {
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+}
+
+#terms:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        background-color: white;
+        width:100%;
+        margin:0rem 1rem
+    }
+    header .choice {
+        display: none;
+}
+
+    .logo span {
+        display: none;
+}
+
+    .altchoice {
+        display: flex;
+
+}
+
+    header .logo img,
+    .altchoice img {
+        display: flex;
+        height: 3rem;
+        flex-flow: nowrap row;
+        cursor: pointer;
+}
+
+    .logo {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+}
+
+    .block-one {
+        display: block;
+        margin:0rem;
+
+}
+
+    .block-one img {
+        width: 100%;
+        margin:1rem;
+
+}
+
+    .main-caption {
+        width: 100%;
+        margin-top: 0;
+}
+
+    .heading {
+        border: 2px dashed black;
+        font-size: 5vw;
+        font-family: "Passion One";
+        padding: 1.5rem;
+        text-align: center;
+        word-spacing: 1rem;
+}
+    #br {
+        display: none;
+}
+
+    .start-here {
+        padding: .5rem;
+        font-weight: bold;
+        font-size: 3vw;
+}
+
+    .block-two {
+        width: 100%;
+        margin:1rem;
+
+}
+
+    .flexcont {
+        display: flex;
+        justify-content: center;
+        padding:0rem 0rem 0rem .5rem;
+        
+       
+
+}
+
+    .flexcont2 {
+        display: flex;
+        width: 100%;
+        padding: .5rem;
+
+}
+
+    .left {
+        display: none;
+}
+
+
+
+
+    .infobox {
+        display: flex;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        border: none;
+        transition: background 2s ease;
+        padding: .2rem;
+        flex-flow: wrap row;
+}
+
+    .info {
+        width: 100%;
+        border-bottom: 2px dashed white;
+}
+
+    .regimg {
+        display: none;
+}
+
+    .infobox .altimg {
+        display: inline-flex;
+        width: 100%;
+        height: auto;
+        align-self: center;
+        border-radius: 5px;
+}
+
+    .read-more {
+        display: inline-flex;
+        color: white;
+        justify-content: flex-start;
+        transition: color 2s ease;
+        cursor: pointer;
+        margin-top: .2rem;
+}
+
+    .bold {
+        padding-top: .5rem;
+}
+
+    .block-three {
+        margin: 1rem 1rem 0rem 1rem;
+        
+        width: 100%;
+
+}
+
+    .start {
+        margin-top: 0px;
+}
+
+    .class {
+        width: 100%;
+        text-align: center;
+}
+
+    .class .classinfo {
+        width: 90%;
+        height:50%;
+}
+
+    .classname {
+        font-size: 4vw;
+}
+
+    .classimg,
+    .courses {
+        display: none;
+}
+    
+    .block-four {
+        width: 100%;
+        background-color:white;
+        margin: 1rem;
+        padding-top:0rem;
+            
+}
+
+
+    .vidbox .heading4,
+    .caption4 {
+        display: none;
+}
+
+    .articlebox {
+        display: none;
+}
+
+    .vidbox {
+        border:2px solid black;
+        background-color:black;
+        display: flex;
+        width: 100%;
+        padding: 0rem;
+}
+
+    .flexcont4 {
+        justify-content: center;
+}
